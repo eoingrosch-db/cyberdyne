@@ -17,6 +17,7 @@ data = [
 
 customers = spark.createDataFrame(data, schema)
 customers.show()
+customers.count()
 
 # Output:
 #
